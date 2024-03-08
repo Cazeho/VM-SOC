@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd /opt
 
 cat <<EOF > docker-compose.yml
 version: '3.8'
