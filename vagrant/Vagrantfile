@@ -17,8 +17,11 @@ Vagrant.configure("2") do |config|
       vb.name = "soc"
     end
 
-    lab.vm.provision "shell", path: "./scripts/install.sh" privileged: true
-    lab.vm.provision "shell", path: "./scripts/volatility.sh" privileged: true
-    lab.vm.provision "shell", path: "./scripts/velociraptor.sh" privileged: true
+    lab.vm.provision "shell", path: "./scripts/install.sh"
+    lab.vm.provision "shell", path: "./scripts/file_sharing.sh"
+    lab.vm.provision "shell", path: "./scripts/file_analysis.sh"
+    lab.vm.provision "shell", path: "./scripts/volatility.sh"
+    lab.vm.provision "shell", path: "./scripts/velociraptor.sh"
+    lab.vm.provision "shell", path: "./scripts/cyberchef.sh"
   end
 end
