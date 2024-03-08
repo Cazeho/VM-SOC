@@ -9,4 +9,8 @@ curl -s https://raw.githubusercontent.com/Cazeho/download_project/main/docker_ub
 apt install binutils -y
 apt install foremost -y
 apt install sleuthkit -y
+
+apt install snapd -y
+snap install john-the-ripper -y
+
 pip install dissect
