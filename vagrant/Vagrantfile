@@ -3,6 +3,8 @@
 
 # linux VM for forensic analysis
 
+UBUNTU="generic/ubuntu2204"
+
 Vagrant.configure("2") do |config|
 
   config.vm.define "soc" do |lab|
