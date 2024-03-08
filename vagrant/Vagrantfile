@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
     lab.vm.provision "shell", path: "./scripts/file_analysis.sh"
     lab.vm.provision "shell", path: "./scripts/volatility.sh"
     lab.vm.provision "shell", path: "./scripts/velociraptor.sh"
-    lab.vm.provision "shell", path: "./scripts/cyberchef.sh"
+    lab.vm.provision "shell", path: "./scripts/cyberchef.sh", privileged: true
     lab.vm.provision "shell", path: "./scripts/file_sharing.sh"
   end
 end
