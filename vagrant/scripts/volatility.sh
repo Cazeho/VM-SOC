@@ -1,1 +1,38 @@
+#!/bin/bash
 
+apt update -y
+
+apt install python2 python2.7-dev libpython2-dev -y
+apt install python-pip -y
+
+pip2 install pycrypto
+pip2 install distorm3
+
+cd /usr/local/lib/python2.7/dist-packages/
+
+
+git clone https://github.com/volatilityfoundation/volatility
+cd volatility
+chmod +x vol.py
+sed -i 's/env python$/env python2/' vol.py
+
+ln -s $PWD/vol.py /usr/local/bin/volatility
+
+
+## add firefox plugins & other
+
+cd /usr/local/lib/python2.7/dist-packages/volatility/volatility/plugins/
+
+git clone https://github.com/superponible/volatility-plugins.git
+cd volatility-plugins
+mv * ..
+cd ..
+rm -rf volatility-plugins
+
+## hollowfind
+
+git clone https://github.com/monnappa22/HollowFind.git
+cd HollowFind
+mv * ..
+cd ..
+rm -rf HollowFind
