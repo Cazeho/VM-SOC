@@ -4,7 +4,7 @@ pip install oletools
 pip2 install -U balbuzard
 pip install LnkParse3
 
-
+# get remote hash with reputation tools
 
 
 cd /opt
