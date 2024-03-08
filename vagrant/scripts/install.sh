@@ -1,4 +1,4 @@
-# init
+#!/bin/bash
 
 swapoff -a
 apt update -y
