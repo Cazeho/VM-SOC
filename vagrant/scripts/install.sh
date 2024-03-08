@@ -6,6 +6,8 @@ curl -s https://raw.githubusercontent.com/Cazeho/download_project/main/docker_ub
 
 # forensic basics
 
+apt install python3-pip python-pip -y
+
 apt install binutils -y
 apt install foremost -y
 apt install sleuthkit -y
