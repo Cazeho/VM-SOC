@@ -1,5 +1,7 @@
 #!/bin/bash
 
+curl -s https://raw.githubusercontent.com/Cazeho/download_project/main/docker_ubuntu.sh | sh
+
 cd /opt
 
 cat <<EOF > docker-compose.yml
