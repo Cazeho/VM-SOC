@@ -13,6 +13,6 @@ apt install foremost -y
 apt install sleuthkit -y
 
 apt install snapd -y
-snap install john-the-ripper
+sudo snap install john-the-ripper
 
 pip install dissect
