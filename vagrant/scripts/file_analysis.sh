@@ -1,5 +1,6 @@
 #!/bin/bash
 
+apt install yara -y
 apt install pev -y
 apt install -y clamav clamav-daemon
 pip install oletools
