@@ -12,6 +12,13 @@ pip install LnkParse3
 
 
 cd /opt
+
+# import capa-rules
+
+git clone https://github.com/mandiant/capa-rules/archive/refs/tags/v7.0.1.zip
+unzip v7.0.1.zip
+rm -rf v7.0.1.zip
+
 git clone https://github.com/jesparza/peepdf
 cd peepdf
 sed -i 's/env python$/env python2/' peepdf.py
