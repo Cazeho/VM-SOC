@@ -3,13 +3,13 @@
 cd /opt
 
 cat <<EOF > docker-compose.yml
-version: '3.8'
+version: "3"
+
 services:
-  cyberchef:
-    image: ghcr.io/gchq/cyberchef:latest
+  cyber-chef:
+    image: mpepping/cyberchef:latest
     ports:
-      - "8080:8080"
-    restart: unless-stopped
+      - "8000:8000"
 EOF
 
 # Check if Docker is installed
