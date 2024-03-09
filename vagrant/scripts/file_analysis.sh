@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt install binwalk -y
+pip install flare-floss
 pip install flare-capa
 apt install yara -y
 apt install pev -y
