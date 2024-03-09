@@ -1,7 +1,7 @@
 #!/bin/bash
 
-apt install pev
-apt install clamav clamav-daemon
+apt install pev -y
+apt install -y clamav clamav-daemon
 pip install oletools
 pip2 install -U balbuzard
 pip install LnkParse3
