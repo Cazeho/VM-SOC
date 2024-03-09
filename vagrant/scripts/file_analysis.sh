@@ -1,25 +1,23 @@
 #!/bin/bash
 
-apt install binwalk -y
-pip install flare-floss
-pip install flare-capa
 apt install yara -y
-apt install pev -y
+apt install binwalk -y
+apt install -y pev
 apt install -y clamav clamav-daemon
-pip install oletools
-pip install LnkParse3
-python3 -m pip install -U malwoverview
 pip2 install -U balbuzard
+pip2 install peutils
 
 
 # get remote hash with reputation tools
 
 
+# https://exploitreversing.com/2021/11/02/malicious-document-analysis-example-1/ 
+
 cd /opt
 
 # import capa-rules
 
-git clone https://github.com/mandiant/capa-rules/archive/refs/tags/v7.0.1.zip
+wget clone https://github.com/mandiant/capa-rules/archive/refs/tags/v7.0.1.zip
 unzip v7.0.1.zip
 rm -rf v7.0.1.zip
 
@@ -37,6 +35,19 @@ wget https://raw.githubusercontent.com/DidierStevens/DidierStevensSuite/master/z
 wget https://raw.githubusercontent.com/DidierStevens/DidierStevensSuite/master/pecheck.py
 wget https://raw.githubusercontent.com/DidierStevens/DidierStevensSuite/master/pdfid.py
 wget https://raw.githubusercontent.com/DidierStevens/DidierStevensSuite/master/base64dump.py
+
+
+chmod +x pdf-parser.py
+chmod +x zipdump.py
+chmod +x pecheck.py
+chmod +x pdfid.py
+chmod +x base64dump.py
+
+sed -i 's/env python$/env python2/' pdf-parser.py
+sed -i 's/env python$/env python2/' zipdump.py
+sed -i 's/env python$/env python2/' pecheck.py
+sed -i 's/env python$/env python2/' pdfid.py
+sed -i 's/env python$/env python2/' base64dump.py
 
 ln -s $PWD/pdf-parser.py /usr/local/bin/pdf-parser
 ln -s $PWD/zipdump.py /usr/local/bin/zipdump
