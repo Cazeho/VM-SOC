@@ -1,5 +1,6 @@
 #!/bin/bash
 
+pip install flare-capa
 apt install yara -y
 apt install pev -y
 apt install -y clamav clamav-daemon
