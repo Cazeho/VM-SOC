@@ -5,8 +5,9 @@ apt install yara -y
 apt install pev -y
 apt install -y clamav clamav-daemon
 pip install oletools
-pip2 install -U balbuzard
 pip install LnkParse3
+pip2 install -U balbuzard
+
 
 # get remote hash with reputation tools
 
