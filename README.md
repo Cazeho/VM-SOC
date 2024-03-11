@@ -81,3 +81,5 @@ velociraptor --config config.yaml frontend -v
 ## Ressources
 
 https://exploitreversing.com/
+https://exploitreversing.files.wordpress.com/2023/07/threat_hunting_with_malwoverview_tines-1.pdf
+https://exploitreversing.files.wordpress.com/2023/07/threat_hunting_with_malwoverview_tines-2.pdf
