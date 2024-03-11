@@ -32,6 +32,8 @@ velociraptor --config config.yaml frontend -v
 - Cyberchef --> port 8000
 
 
+## Threat Hunting
+
 ## Forensic analysis
 
 - memory dump
@@ -75,3 +77,7 @@ velociraptor --config config.yaml frontend -v
 - objdump
 - olefile
 - pecheck
+
+## Ressources
+
+https://exploitreversing.com/
