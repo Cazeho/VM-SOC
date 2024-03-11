@@ -32,6 +32,17 @@ velociraptor --config config.yaml frontend -v
 - Cyberchef --> port 8000
 
 
+## Forensic analysis
+
+- memory dump
+- disk dump
+- network dump
+
+## Malware analysis
+
+- Excel, pdf, word (doc, docx), pe file (.exe), js, python
+
+
 ## List of used Tools
 
 - binutils
