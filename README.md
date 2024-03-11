@@ -16,7 +16,7 @@ cd VM-SOC/vagrant
 vagrant up soc
 ```
 
-## check install & get info for each tools
+## check install & get info for each tools (in VM)
 
 ```
 tools --check
