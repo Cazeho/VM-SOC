@@ -1,0 +1,29 @@
+<tools>
+    <tool>ld</tool>
+    <tool>target-shell</tool>
+    <tool>chainsaw</tool>
+    <tool>mmls</tool>
+    <tool>foremost</tool>
+    <tool>volatility</tool>
+    <tool>velociraptor</tool>
+    <tool>docker</tool>
+    <tool>docker-compose</tool>
+    <tool>manalyze</tool>
+    <tool>balbuzard</tool>
+    <tool>peepdf</tool>
+    <tool>binwalk</tool>
+    <tool>yara</tool>
+    <tool>pescan</tool>
+    <tool>lnkparse</tool>
+    <tool>floss</tool>
+    <tool>oleid</tool>
+    <tool>malwoverview.py</tool>
+    <tool>capa</tool>
+    <tool>pdfid</tool>
+    <tool>base64dump</tool>
+    <tool>pdf-parser</tool>
+    <tool>zipdump</tool>
+    <tool>objdump</tool>
+    <tool>olefile</tool>
+    <tool>pecheck</tool>
+</tools>
