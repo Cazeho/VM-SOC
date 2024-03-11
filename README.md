@@ -24,9 +24,12 @@ change in config.yaml all localhost --> $IP
 velociraptor --config config.yaml user add admin --role administrator
 password
 velociraptor --config config.yaml frontend -v
-
-
 ```
+
+## Web app
+
+Filemanager --> port 5000
+Cyberchef --> port 8000
 
 
 ## List of used Tools
