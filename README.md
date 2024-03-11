@@ -50,7 +50,7 @@ velociraptor --config config.yaml frontend -v
 
 ## Malware analysis
 
-- Excel, pdf, word (doc, docx), pe file (.exe), js, python
+- Excel, pdf, word (doc, docx), pe file (.exe), js, python, lnk
 
 
 ## List of used Tools
