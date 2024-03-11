@@ -37,6 +37,7 @@ velociraptor --config config.yaml frontend -v
 - memory dump
 - disk dump
 - network dump
+- evtx logs
 
 ## Malware analysis
 
