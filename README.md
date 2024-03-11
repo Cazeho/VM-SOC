@@ -55,6 +55,7 @@ velociraptor --config config.yaml frontend -v
 
 ## List of used Tools
 
+- mail-parser
 - chainsaw
 - manalyze
 - binutils
