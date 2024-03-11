@@ -1,7 +1,14 @@
 # VM-SOC
 
+## prerequisites
 
-# How to deploy VM-SOC
+### install virtualbox
+https://www.virtualbox.org/wiki/Downloads
+
+### install vagrant
+https://developer.hashicorp.com/vagrant/install?product_intent=vagrant
+
+## How to deploy VM-SOC
 
 ```
 git cole https://github.com/Cazeho/VM-SOC.git
@@ -9,7 +16,7 @@ cd VM-SOC/vagrant
 vagrant up soc
 ```
 
-# How to set Velociraptor web server
+## How to set Velociraptor web server
 
 ```
 velociraptor --config server.config.yaml config generate > config.yaml
@@ -22,7 +29,7 @@ velociraptor --config config.yaml frontend -v
 ```
 
 
-# List of used Tools
+## List of used Tools
 
 - binutils
 - foremost
