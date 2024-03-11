@@ -16,6 +16,13 @@ cd VM-SOC/vagrant
 vagrant up soc
 ```
 
+## check install & get info for each tools
+
+```
+tools --check
+tools --info
+```
+
 ## How to set Velociraptor web server
 
 ```
