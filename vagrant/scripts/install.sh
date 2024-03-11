@@ -22,3 +22,4 @@ pip install LnkParse3
 python3 -m pip install -U malwoverview
 pip install flare-floss
 pip install flare-capa
+pip install olefile
