@@ -30,7 +30,7 @@ velociraptor --config config.yaml frontend -v
 
 - Filemanager --> port 5000
 - Cyberchef --> port 8000
-
+- Velociraptor --> port 8889
 
 ## Threat Hunting
 
