@@ -48,6 +48,9 @@ velociraptor --config config.yaml frontend -v
 
 ## List of used Tools
 
+- chainsaw
+- manalyze
+
 - binutils
 - foremost
 - sleuthkit
