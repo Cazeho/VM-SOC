@@ -24,7 +24,7 @@ fn main() {
         .get_matches();
 
     if matches.is_present("check") {
-        let file = File::open("tools.xml").expect("Failed to open XML file");
+        let file = File::open("config.xml").expect("Failed to open XML file");
         let tools: Tools = from_reader(file).expect("Failed to parse XML");
 
         for tool in tools.tool {
