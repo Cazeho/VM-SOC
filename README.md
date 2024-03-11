@@ -28,8 +28,8 @@ velociraptor --config config.yaml frontend -v
 
 ## Web app
 
-Filemanager --> port 5000
-Cyberchef --> port 8000
+- Filemanager --> port 5000
+- Cyberchef --> port 8000
 
 
 ## List of used Tools
