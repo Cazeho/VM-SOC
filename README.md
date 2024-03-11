@@ -1,6 +1,8 @@
 # VM-SOC
 
 
+# How to set Velociraptor web server
+
 ```
 velociraptor --config server.config.yaml config generate > config.yaml
 change localhost --> $IP
