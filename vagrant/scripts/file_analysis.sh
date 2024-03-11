@@ -3,7 +3,7 @@
 apt install yara -y
 apt install binwalk -y
 apt install -y pev
-apt install -y clamav clamav-daemon
+# apt install -y clamav clamav-daemon
 pip2 install -U balbuzard
 pip2 install peutils
 
