@@ -50,7 +50,6 @@ velociraptor --config config.yaml frontend -v
 
 - chainsaw
 - manalyze
-
 - binutils
 - foremost
 - sleuthkit
