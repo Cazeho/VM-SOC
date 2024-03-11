@@ -4,8 +4,9 @@
 # How to deploy VM-SOC
 
 ```
-
-
+git cole https://github.com/Cazeho/VM-SOC.git
+cd VM-SOC/vagrant
+vagrant up soc
 ```
 
 # How to set Velociraptor web server
