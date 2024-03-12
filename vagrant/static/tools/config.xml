@@ -1,4 +1,5 @@
 <tools>
+    <tool>mailparser</tool>
     <tool>ld</tool>
     <tool>target-shell</tool>
     <tool>chainsaw</tool>
