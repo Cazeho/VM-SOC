@@ -21,6 +21,7 @@ Vagrant.configure("2") do |config|
 
     lab.vm.provision "shell", path: "./scripts/install.sh", privileged: true
     lab.vm.provision "shell", path: "./scripts/volatility.sh"
+    lab.vm.provision "shell", path: "./scripts/volatility3.sh"
     lab.vm.provision "shell", path: "./scripts/file_analysis.sh"
     lab.vm.provision "shell", path: "./scripts/chainsaw.sh", privileged: true
     lab.vm.provision "shell", path: "./scripts/velociraptor.sh"
