@@ -9,7 +9,7 @@ snap install john-the-ripper
 # forensic basics
 
 apt install python3-pip -y
-
+apt install whois -y
 apt install binutils -y
 apt install foremost -y
 apt install sleuthkit -y
