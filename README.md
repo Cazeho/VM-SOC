@@ -87,6 +87,7 @@ velociraptor --config config.yaml frontend -v
 - objdump
 - olefile
 - pecheck
+- whois
 
 ## Ressources
 
