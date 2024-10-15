@@ -1,4 +1,7 @@
-version: "2.1"
+#!/bin/bash
+
+cat <<EOF > docker-compose.yml
+version: "3"
 services:
   kasm:
     image: lscr.io/linuxserver/kasm:latest
@@ -9,3 +12,4 @@ services:
     ports:
       - 3000:3000
       - 8443:443
+EOF
