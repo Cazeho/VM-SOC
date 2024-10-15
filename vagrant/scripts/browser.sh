@@ -12,8 +12,8 @@ services:
     container_name: kasm
     privileged: true
     environment:
-      - KASM_PORT=8443
+      - KASM_PORT=443
     ports:
       - 3000:3000
-      - 8443:443
+      - 443:443
 EOF
