@@ -1,5 +1,9 @@
 #!/bin/bash
 
+cd /opt
+mkdir kasm
+cd kasm
+
 cat <<EOF > docker-compose.yml
 version: "3"
 services:
