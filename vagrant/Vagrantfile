@@ -27,6 +27,7 @@ Vagrant.configure("2") do |config|
     lab.vm.provision "shell", path: "./scripts/velociraptor.sh"
     lab.vm.provision "shell", path: "./scripts/docker_install.sh", privileged: true
     lab.vm.provision "shell", path: "./scripts/cyberchef.sh", privileged: true
+    lab.vm.provision "shell", path: "./scripts/browser.sh", privileged: true
     lab.vm.provision "shell", path: "./scripts/file_sharing.sh"
   end
 end
