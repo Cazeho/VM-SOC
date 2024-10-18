@@ -13,6 +13,7 @@ apt install whois -y
 apt install binutils -y
 apt install foremost -y
 apt install sleuthkit -y
+apt install upx-ucl -y
 
 
 
