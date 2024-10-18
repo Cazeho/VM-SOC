@@ -24,3 +24,5 @@ pip install flare-floss
 pip install flare-capa
 pip install olefile
 pip install mail-parser
+
+mkdir -p /home/vagrant/sample
