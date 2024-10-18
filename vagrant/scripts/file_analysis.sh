@@ -36,6 +36,7 @@ wget https://raw.githubusercontent.com/DidierStevens/DidierStevensSuite/master/p
 wget https://raw.githubusercontent.com/DidierStevens/DidierStevensSuite/master/pdfid.py
 wget https://raw.githubusercontent.com/DidierStevens/DidierStevensSuite/master/base64dump.py
 wget https://raw.githubusercontent.com/DidierStevens/DidierStevensSuite/master/oledump.py
+wget https://raw.githubusercontent.com/DidierStevens/DidierStevensSuite/master/xorsearch.py
 
 
 chmod +x pdf-parser.py
@@ -44,6 +45,7 @@ chmod +x pecheck.py
 chmod +x pdfid.py
 chmod +x base64dump.py
 chmod +x oledump.py
+chmod +x xorsearch.py
 
 sed -i 's/env python$/env python2/' pdf-parser.py
 sed -i 's/env python$/env python2/' zipdump.py
@@ -51,6 +53,7 @@ sed -i 's/env python$/env python2/' pecheck.py
 sed -i 's/env python$/env python2/' pdfid.py
 sed -i 's/env python$/env python2/' base64dump.py
 sed -i 's/env python$/env python3/' oledump.py
+sed -i 's/env python$/env python3/' xorsearch.py
 
 ln -s $PWD/pdf-parser.py /usr/local/bin/pdf-parser
 ln -s $PWD/zipdump.py /usr/local/bin/zipdump
@@ -58,3 +61,4 @@ ln -s $PWD/pecheck.py /usr/local/bin/pecheck
 ln -s $PWD/pdfid.py /usr/local/bin/pdfid
 ln -s $PWD/base64dump.py /usr/local/bin/base64dump
 ln -s $PWD/oledump.py /usr/local/bin/oledump
+ln -s $PWD/oledump.py /usr/local/bin/xorsearch
