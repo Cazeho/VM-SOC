@@ -55,7 +55,7 @@ velociraptor --config config.yaml frontend -v
 
 ## List of used Tools
 
-- mail-parser
+- mailparser
 - chainsaw
 - manalyze
 - binutils
@@ -90,6 +90,7 @@ velociraptor --config config.yaml frontend -v
 - whois
 - upx
 - xorsearch
+- hayabusa
 - kasm
 
 ## Ressources
