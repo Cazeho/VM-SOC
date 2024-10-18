@@ -88,6 +88,9 @@ velociraptor --config config.yaml frontend -v
 - olefile
 - pecheck
 - whois
+- upx
+- xorsearch
+- kasm
 
 ## Ressources
 
